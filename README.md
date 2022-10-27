@@ -1,6 +1,8 @@
 targetcli-modules
 =================
 
+This is a fork of [OndrejHome/ansible.targetcli-modules](https://github.com/OndrejHome/ansible.targetcli-modules) that will hopefully work again with `ansible-galaxy`.
+
 Modules for interacting with targetcli command line utility.
 
 Requirements
@@ -34,14 +36,15 @@ Example playbook for including modules in your playbook
 
     - hosts: servers
       roles:
-         - { role: 'OndrejHome.targetcli-modules' }
+         - { role: 'yeoldegrove.targetcli_modules' }
 
 License
 -------
 
 GPLv3
 
-Author Information
+Kudos to original Author
 ------------------
 
-To get in touch with author you can use email ondrej-xa2iel8u@famera.cz or create a issue on github when requesting some feature.
+To get in touch with the original author you can use email ondrej-xa2iel8u@famera.cz.
+
