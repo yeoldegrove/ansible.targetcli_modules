@@ -1,0 +1,23 @@
+
+# See https://docs.ansible.com/ansible/latest/dev_guide/collections_galaxy_meta.html
+
+namespace: yeoldegrove
+name: targetcli
+version: 6.0.0
+readme: README.md
+authors:
+  - Ondrej Faměra (github.com/ondrejhome)
+  - Eike Waldt (github.com/yeoldegrove)
+description: modules for managing targetcli
+license_file: LICENSE
+tags:
+  - system
+  - storage
+  - iscsi
+repository: https://github.com/yeoldegrove/ansible.targetcli_modules
+documentation: https://github.com/yeoldegrove/ansible.targetcli_modules
+homepage: https://github.com/yeoldegrove/ansible.targetcli_modules
+issues: https://github.com/yeoldegrove/ansible.targetcli_modules
+build_ignore:
+# https://docs.ansible.com/ansible/devel/dev_guide/developing_collections.html#ignoring-files-and-folders
+  - .gitignore
